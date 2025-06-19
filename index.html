@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Estudiantes</title>
+</head>
+<body>
+<h2>Registro de estudiantes</h2>
+
+<form id="formularioEstudiante">
+<input type="text" id="nombre" placeholder="Nombre del estudiante" required>
+<input type="text" id="grado" placeholder="Grado" required>
+<input type="text" id="materia" placeholder="Materia favorita" required>
+<button type="submit">Guardar</button>
+</form>
+
+<button onclick="mostrarTabla()">Mostrar tabla</button>
+<button onclick="ocultarTabla()">Ocultar tabla</button>
+
+<div id="tablaEstudiantes" style="display:none; margin-top:20px;"></div>
+<script src="index.js"></script>
+
+</body
+</html>
